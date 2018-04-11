@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
+
 .bumpRight {
     margin-right: 25px;
 }
 #about {
-    padding-top: 55px;
-    border: 1px solid black;
+    padding-top: 55px; 
+    border: 1px solid black; /* borders for testing only */
 }
 #portfolio {
-    border: 1px solid red;
+    border: 1px solid red; /* borders for testing only */
 }
 #skills {
-    border: 1px solid green;
+    border: 1px solid green; /* borders for testing only */
 }
 #contact {
-    border: 1px solid blue;
+    border: 1px solid blue; /* borders for testing only */
+}
+
+
+
+.serviceBox {
+    max-width: 400px;
+    margin: 50px auto 0;
+}
+.serviceBoxSmall {
+    max-width: 200px;
+    margin: 25px auto 0;
 }
