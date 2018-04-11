@@ -1,0 +1,16 @@
+.bumpRight {
+    margin-right: 25px;
+}
+#about {
+    padding-top: 55px;
+    border: 1px solid black;
+}
+#portfolio {
+    border: 1px solid red;
+}
+#skills {
+    border: 1px solid green;
+}
+#contact {
+    border: 1px solid blue;
+}
