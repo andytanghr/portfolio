@@ -1,29 +1,81 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
 
-.bumpRight {
-    margin-right: 25px;
-}
+
 #about {
-    padding-top: 55px; 
-    border: 1px solid black; /* borders for testing only */
+    
+    /* background-color: #eece96; */
+    /* border: 1px solid black;*/
+    padding-top: 75px; 
 }
 #portfolio {
-    border: 1px solid red; /* borders for testing only */
+    /* border: 1px solid red;*/
+    /* padding-top: 75px; */
+    padding-top: 75px;
 }
-#skills {
-    border: 1px solid green; /* borders for testing only */
+#tech {
+    /* border: 1px solid green;*/
+    padding-top: 75px;
 }
 #contact {
-    border: 1px solid blue; /* borders for testing only */
+    /* border: 1px solid blue;*/
+    padding-top: 75px;
+}
+
+#top {
+    padding-top: 75px;
 }
 
 
 
+
+.bio {
+    padding: 0 15px;
+}
+
+.bumpLeft {
+    padding-left: 25px;
+}
+
+.bumpRight {
+    padding-right: 25px;
+}
+
+.footnoteText {
+    font-size: .7em;
+}
+
+hr {
+    width: 50%;
+}
+
+p {
+    line-height: 1.8em;
+}
+.padBottom {
+    padding-bottom: 35px;
+}
+.serif, h1, h2, h3, h4, h5, h6 {
+    font-family: Merriweather, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sansSerif, p {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 25px;
+}
 .serviceBox {
     max-width: 400px;
-    margin: 50px auto 0;
+    margin: 35px auto 0;
 }
 .serviceBoxSmall {
-    max-width: 200px;
-    margin: 25px auto 0;
+    max-width: 100px;
+    margin: 5px auto 0;
+}
+
+.verticalOval {
+    /* height: 400px;
+    width: 350px; */
+    border-radius: 350px / 375px;
+    
 }
