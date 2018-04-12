@@ -35,9 +35,15 @@
 .bumpLeft {
     padding-left: 25px;
 }
-
+.bumpLeftMore {
+    padding-left: 35px;
+}
 .bumpRight {
     padding-right: 25px;
+}
+
+.bumpRightDouble {
+    padding-right: 50px;
 }
 
 .footnoteText {
