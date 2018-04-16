@@ -26,10 +26,21 @@
 }
 
 
+a {
+    color: black;
+}
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
 
 
 .bio {
     padding: 0 15px;
+}
+
+.blue {
+    color: blue;
 }
 
 .bumpLeft {
@@ -46,6 +57,31 @@
     padding-right: 50px;
 }
 
+.contactIcon {
+    font-size: 2em;
+}
+/* .devicon-github-plain:hover {
+    filter: invert(100%);
+    color: black;
+    invert doesn't work well, gotta switch classes on hover using jQuery
+} */
+
+
+/* .devicon-javascript-plain:hover {
+    color: rgb(237, 219, 103);
+} */
+
+/* .fa-file:hover {
+    color: rgb(62, 169, 62);
+} */
+/* .fa-envelope:hover {
+    color: rgb(204, 80, 64);
+} */
+
+/* .fa-linkedin:hover {
+    color: rgb(46, 114, 173);
+} */
+
 .footnoteText {
     font-size: .7em;
 }
@@ -59,6 +95,13 @@ p {
 }
 .padBottom {
     padding-bottom: 35px;
+}
+.projectIcon {
+    font-size: 1.5em;
+}
+
+.repoIcon {
+    font-size: 2em
 }
 .serif, h1, h2, h3, h4, h5, h6 {
     font-family: Merriweather, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -79,9 +122,10 @@ section {
     margin: 5px auto 0;
 }
 
-.verticalOval {
-    /* height: 400px;
-    width: 350px; */
-    border-radius: 350px / 375px;
-    
+.techIcon {
+    font-size: 3em;
 }
+.verticalOval {
+    border-radius: 350px / 375px;
+}
+
